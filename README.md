@@ -26,10 +26,10 @@ The app demonstrates the use of Intents in two ways:
 4. Build and run the sample.
 
 
-#Demo of App
+# Demo of App
 ![add](gif/WordsApp.gif)
 
 
-## Author
+# Author
 
 - [Raban Kathariya](https://www.github.com/raban2)
