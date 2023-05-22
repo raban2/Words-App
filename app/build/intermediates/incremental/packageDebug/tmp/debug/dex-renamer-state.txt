@@ -1,0 +1,4 @@
+#Tue May 23 01:54:36 NPT 2023
+base.0=R\:\\Level_6\\semester 2\\Developing Mobile Application\\DMAComponent1-LabExercises\\DMAComponent1-LabExercises\\wordsApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

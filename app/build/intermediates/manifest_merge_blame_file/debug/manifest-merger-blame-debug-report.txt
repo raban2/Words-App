@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2020 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.wordsapp"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="33" />
+24-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] C:\Users\Predator\.gradle\caches\transforms-3\2a40c978216a6213b76dded601643925\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.wordsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] C:\Users\Predator\.gradle\caches\transforms-3\2a40c978216a6213b76dded601643925\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] C:\Users\Predator\.gradle\caches\transforms-3\2a40c978216a6213b76dded601643925\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.wordsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] C:\Users\Predator\.gradle\caches\transforms-3\2a40c978216a6213b76dded601643925\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] C:\Users\Predator\.gradle\caches\transforms-3\2a40c978216a6213b76dded601643925\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:20:5-38:19
+33        android:allowBackup="true"
+33-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:21:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] C:\Users\Predator\.gradle\caches\transforms-3\2a40c978216a6213b76dded601643925\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:22:9-43
+37        android:label="@string/app_name"
+37-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:23:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:24:9-54
+39        android:supportsRtl="true"
+39-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:25:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.Words" >
+41-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:26:9-43
+42        <activity
+42-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:27:9-29:58
+43            android:name="com.example.wordsapp.DetailActivity"
+43-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:28:13-43
+44            android:parentActivityName="com.example.wordsapp.MainActivity" />
+44-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:29:13-55
+45        <activity
+45-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:30:9-37:20
+46            android:name="com.example.wordsapp.MainActivity"
+46-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:30:19-47
+47            android:exported="true" >
+47-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:31:13-36
+48            <intent-filter>
+48-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:32:13-36:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:33:17-69
+49-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:33:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:35:17-77
+51-->R:\Level_6\semester 2\Developing Mobile Application\DMAComponent1-LabExercises\DMAComponent1-LabExercises\wordsApp\app\src\main\AndroidManifest.xml:35:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.wordsapp.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Predator\.gradle\caches\transforms-3\574736dfef4e99eb74af8e0d77528e74\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Predator\.gradle\caches\transforms-3\195605866076f497d2ac3adeddcfd557\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Predator\.gradle\caches\transforms-3\195605866076f497d2ac3adeddcfd557\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Predator\.gradle\caches\transforms-3\195605866076f497d2ac3adeddcfd557\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
