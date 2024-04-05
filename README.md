@@ -1,33 +1,39 @@
 # Words App
 
-This folder contains the source code for the Words app codelab.
+This folder contains the source code for the Employee Management System.
 
 
 # Introduction
-Words app allows you to select a letter and use Intents to navigate to an Activity that
-presents a number of words starting with that letter. Each word can be looked up via a web search.
+The Employee Management System is designed to facilitate the management of employees within an organization. It provides functionalities for user authentication, department management, employee management, gallery viewing, image uploading, sending emails through a contact form, and viewing user profiles.
 
-Words app contains a scrollable list of 26 letters A to Z in a RecyclerView. The orientation
-of the RecyclerView can be changed between a vertical list or a grid of items.
-
-The app demonstrates the use of Intents in two ways:
-* to navigate inside an app by specifying an explicit destination, and,
-* allowing Android to service the Intent using the apps and resources present on the device.
+The system includes features such as:
+* Authentication: Login and signup pages for users.
+* Department Management: Admin can add, view, edit, and delete departments.
+* Employee Management: Admin can add, view, edit, and delete employees. Employees are associated with respective departments.
+* Gallery Viewing: Admin can view a gallery of images.
+* Image Uploading: Admin can upload pictures to the gallery.
+* Contact Form: Users can send emails through a contact form.
+* User Profiles: Users can view their own profiles
 
 # Pre-requisites
-* Experience with Kotlin syntax.
-* Able to create an Activity.
-* Able to create a RecyclerView and supply it with data.
+* Experience with Java and Spring Boot and Dependencies.
+*  Basic Knowledge in user interface design principles for creating intuitive and user-friendly interfaces using 
+      Bootstrap,thyemleaf,html and Css.
+* Understanding of handling HTTP requests for implementing functionalities such as sending emails through a contact form.
+* Understanding of user authentication mechanisms for implementing login and signup functionality.
+* Knowledge of session management to ensure secure access to user-specific features and data.
+* Knowledge of database management systems for storing and retrieving data related to departments, employees, and user profiles.
+
 
 # Getting Started
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+1. Install Spring Tool suit, if you don't already have it.
+2. Download the Project.
+3. Import the sample into Spring Tool Suit IDE.
+4. Run project as Spring Boot App.
 
 
 # Demo of App
-![add](gif/WordsApp.gif)
+![add](gif/demo.gif)
 
 
 # Author
